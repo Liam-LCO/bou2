@@ -1,0 +1,78 @@
+{
+  "siteType": "vitrine",
+  "brand": {
+    "name": "Réparation Téléphone",
+    "nav": [
+      "Accueil",
+      "Contact"
+    ]
+  },
+  "theme": {
+    "palette": "clean",
+    "typo": "montserrat"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "title": "Accueil",
+      "description": "Présentation de nos services de réparation de téléphone.",
+      "blocks": [
+        {
+          "type": "navbar",
+          "html": "<section class='bg-[var(--surface)] border-b border-[var(--line)] py-4'><div class='max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8'><a href='#' class='text-[var(--brand)] font-bold text-lg'>Réparation Téléphone</a><nav class='space-x-4'><a href='#' class='text-[var(--text)] hover:text-[var(--brand)] transition'>Accueil</a><a href='#' class='text-[var(--text)] hover:text-[var(--brand)] transition'>Contact</a></nav></div></section>"
+        },
+        {
+          "type": "hero",
+          "html": "<section class='flex flex-col items-center gap-5 bg-[var(--bg)] py-24 px-12 text-center relative overflow-hidden'><div class='absolute inset-0 [background:radial-gradient(ellipse_90%_55%_at_50%_-5%,color-mix(in_srgb,var(--brand)_20%,transparent),transparent)] pointer-events-none'></div><span class='inline-flex items-center gap-2 bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] border border-[color-mix(in_srgb,var(--brand)_30%,transparent)] text-[var(--brand)] text-xs tracking-widest uppercase font-bold px-4 py-1.5 rounded-full relative'>NOS SERVICES</span><h1 class='text-4xl md:text-6xl font-black leading-tight text-[var(--text)] max-w-3xl tracking-tight relative'>Réparation de Téléphone Rapide et Fiable</h1><p class='text-[var(--muted)] max-w-xl text-base leading-relaxed relative'>Votre téléphone mérite une seconde vie, confiez-le à nos experts pour une réparation professionnelle.</p><a class='bg-[var(--brand)] text-white px-8 py-3 rounded-lg font-bold text-sm inline-flex items-center gap-2 shadow-lg hover:opacity-90 transition' href='#'>Voir nos services →</a></section>"
+        },
+        {
+          "type": "features",
+          "html": "<section class='bg-[var(--bg)] py-20 px-6'><div class='max-w-5xl mx-auto'><p class='text-[var(--brand)] text-xs tracking-widest uppercase font-bold mb-3'>CARACTÉRISTIQUES</p><h2 class='text-3xl font-bold text-[var(--text)] mb-2'>Pourquoi choisir nos services ?</h2><p class='text-[var(--muted)] mb-10 max-w-xl'>Des solutions adaptées à chacun de vos besoins technologiques.</p><div class='grid md:grid-cols-3 gap-6'><div class='bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6'><div class='w-10 h-10 rounded-lg bg-[color-mix(in_srgb,var(--brand)_15%,transparent)] flex items-center justify-center text-[var(--brand)] mb-4'>🔧</div><h3 class='font-semibold text-[var(--text)] mb-2'>Réparation Express</h3><p class='text-sm text-[var(--muted)] leading-relaxed'>Réparez votre téléphone en moins de 30 minutes.</p></div><div class='bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6'><div class='w-10 h-10 rounded-lg bg-[color-mix(in_srgb,var(--brand)_15%,transparent)] flex items-center justify-center text-[var(--brand)] mb-4'>🔒</div><h3 class='font-semibold text-[var(--text)] mb-2'>Sécurité Garantie</h3><p class='text-sm text-[var(--muted)] leading-relaxed'>Vos données personnelles sont protégées durant le processus.</p></div><div class='bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6'><div class='w-10 h-10 rounded-lg bg-[color-mix(in_srgb,var(--brand)_15%,transparent)] flex items-center justify-center text-[var(--brand)] mb-4'>🛠️</div><h3 class='font-semibold text-[var(--text)] mb-2'>Techniciens Certifiés</h3><p class='text-sm text-[var(--muted)] leading-relaxed'>Nos techniciens sont formés et certifiés pour garantir un service premium.</p></div></div></div></section>"
+        },
+        {
+          "type": "testimonials",
+          "html": "<section class='bg-[var(--bg)] py-20 px-6'><div class='max-w-6xl mx-auto'><h2 class='text-3xl font-bold text-[var(--text)] mb-6 text-center'>Témoignages de nos clients</h2><div class='grid md:grid-cols-2 gap-10'><div class='bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6'><blockquote class='text-[var(--muted)]'>\"Un service exceptionnel, mon téléphone est comme neuf ! Merci !\"</blockquote><p class='text-[var(--text)] font-semibold mt-4'>- Marie Dubois</p></div><div class='bg-[var(--surface)] border border-[var(--line)] rounded-xl p-6'><blockquote class='text-[var(--muted)]'>\"Rapide et efficace, que demander de plus ?\"</blockquote><p class='text-[var(--text)] font-semibold mt-4'>- Jean-Marc Lemoine</p></div></div></div></section>"
+        },
+        {
+          "type": "cta",
+          "html": "<section class='bg-[color-mix(in_srgb,var(--brand)_10%,transparent)] py-16 px-6 text-center'><div class='max-w-2xl mx-auto'><h2 class='text-3xl font-bold text-[var(--text)] mb-4'>Besoin d'une réparation immédiate ?</h2><p class='text-[var(--muted)] mb-8'>Ne perdez pas de temps, contactez dès maintenant notre équipe de professionnels.</p><a href='#' class='bg-[var(--brand)] text-white px-8 py-3 rounded-lg font-bold text-sm inline-flex items-center gap-2 shadow-lg hover:opacity-90 transition'>Contactez-nous →</a></div></section>"
+        },
+        {
+          "type": "footer",
+          "html": "<section class='bg-[var(--surface)] py-10'><div class='max-w-7xl mx-auto text-center'><p class='text-sm text-[var(--muted)]'>© 2023 Réparation Téléphone. Tous droits réservés.</p></div></section>"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "description": "Informations pour nous contacter.",
+      "blocks": [
+        {
+          "type": "navbar",
+          "html": "<section class='bg-[var(--surface)] border-b border-[var(--line)] py-4'><div class='max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8'><a href='#' class='text-[var(--brand)] font-bold text-lg'>Réparation Téléphone</a><nav class='space-x-4'><a href='#' class='text-[var(--text)] hover:text-[var(--brand)] transition'>Accueil</a><a href='#' class='text-[var(--text)] hover:text-[var(--brand)] transition'>Contact</a></nav></div></section>"
+        },
+        {
+          "type": "pageheader",
+          "html": "<section class='bg-[var(--bg)] py-12 px-6 text-center'><h1 class='text-4xl font-bold text-[var(--text)] mb-4'>Contactez-nous</h1><p class='text-[var(--muted)]'>Nous sommes là pour répondre à toutes vos questions.</p></section>"
+        },
+        {
+          "type": "contact",
+          "html": "<section class='bg-[var(--bg)] py-20 px-6'><div class='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10'><div><h2 class='text-2xl font-bold text-[var(--text)] mb-4'>Nos Coordonnées</h2><p class='text-[var(--muted)]'>Adresse : 123 Rue de la Réparation, 75000 Paris</p><p class='text-[var(--muted)]'>Téléphone : 01 23 45 67 89</p><p class='text-[var(--muted)]'>Email : contact@reparationtelephone.fr</p></div><div><form class='bg-[var(--surface)] p-8 rounded-lg border border-[var(--line)]'><h3 class='text-xl font-bold text-[var(--text)] mb-4'>Envoyez-nous un message</h3><div class='mb-4'><label class='block text-[var(--muted)] mb-2'>Nom</label><input type='text' class='w-full p-3 border border-[var(--line)] rounded-lg' /></div><div class='mb-4'><label class='block text-[var(--muted)] mb-2'>Email</label><input type='email' class='w-full p-3 border border-[var(--line)] rounded-lg' /></div><div class='mb-4'><label class='block text-[var(--muted)] mb-2'>Message</label><textarea class='w-full p-3 border border-[var(--line)] rounded-lg'></textarea></div><button class='bg-[var(--brand)] text-white px-6 py-3 rounded-lg font-bold shadow-lg hover:opacity-90 transition' type='submit'>Envoyer</button></form></div></div></section>"
+        },
+        {
+          "type": "map",
+          "html": "<section class='bg-[var(--bg)] py-20 px-6'><div class='max-w-4xl mx-auto'><h2 class='text-2xl font-bold text-[var(--text)] mb-4'>Trouvez-nous ici</h2><div class='border border-[var(--line)] rounded-lg overflow-hidden'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999115261556!2d2.294481215674994!3d48.85837007928785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f1dd93d1e79%3A0xa61d1e71aba8f5a0!2sTour Eiffel!5e0!3m2!1sfr!2sfr!4v1612874829938!5m2!1sfr!2sfr' width='100%' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe></div></div></section>"
+        },
+        {
+          "type": "faq",
+          "html": "<section class='bg-[var(--bg)] py-20 px-6'><div class='max-w-4xl mx-auto'><h2 class='text-2xl font-bold text-[var(--text)] mb-4'>Foire Aux Questions</h2><div class='space-y-6'><div><h3 class='text-lg font-semibold text-[var(--text)]'>Comment suivre ma réparation ?</h3><p class='text-[var(--muted)]'>Après avoir déposé votre appareil, vous recevrez un lien de suivi par email.</p></div><div><h3 class='text-lg font-semibold text-[var(--text)]'>Quels types de réparation proposez-vous ?</h3><p class='text-[var(--muted)]'>Nous réparons les écrans, batteries, et plus encore.</p></div></div></div></section>"
+        },
+        {
+          "type": "footer",
+          "html": "<section class='bg-[var(--surface)] py-10'><div class='max-w-7xl mx-auto text-center'><p class='text-sm text-[var(--muted)]'>© 2023 Réparation Téléphone. Tous droits réservés.</p></div></section>"
+        }
+      ]
+    }
+  ]
+}
